@@ -53,7 +53,6 @@ if (input.value.trim() !== "" ){
 console.log(time)
 
 
-
   if (input.style.backgroundColor == "brown") {
     poster.style.backgroundColor = "brown";
     poster.style.color = "#fff";
@@ -99,12 +98,9 @@ else{
  alert("input not filled") }
   input.value = "";
   input.style.backgroundColor = "";
-  
-
 }
 let con = false ;
 function likeBtn(e) {
-  // con = false;
   let count = 19 ;
     let likeCount = document.getElementById("like-count");
      if(con == true){
